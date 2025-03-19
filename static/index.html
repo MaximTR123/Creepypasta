@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../static/rust-ico.png" type="image/x-icon">
+    <title>Rust Server about creepypasta</title>
+    <link rel="stylesheet" href="../static/external.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+      <!-- Навигация -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="../static/img/creepypasta-ico.jpg" alt="logo" class="logo-lg d-none d-lg-block">
+            <img src="../static/img/creepypasta-ico.jpg" alt="logo" class="logo-sm d-block d-lg-none">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Крипипасты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Баннер -->
+    <div class="container text-center mt-5" id="creepypasta">
+        <h1>Добро пожаловать в мир крипипаст!</h1>
+        <p>Погрузитесь в самые страшные и загадочные истории из интернета.</p>
+    </div>
+
+    <!-- Список крипипаст -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Карточки с крипипастами -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../static/img/slender/slenderman.jpg" class="card-img-top" alt="Slender Man">
+                    <div class="card-body">
+                        <h5 class="card-title">Slender Man</h5>
+                        <p class="card-text">Слендермен — это существо, скрывающееся в лесах, преследующее людей...</p>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#slenderModal">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../static/img/jeff/jeff.jpg" class="card-img-top" alt="Jeff the Killer">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeff the Killer</h5>
+                        <p class="card-text">Жестокий убийца, с лицом, навсегда искаженным ужасной улыбкой...</p>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#jeffModal">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../static/img/sleep/sleep.jpg" class="card-img-top" alt="The Russian Sleep Experiment">
+                    <div class="card-body">
+                        <h5 class="card-title">Russian Sleep Experiment</h5>
+                        <p class="card-text">История о советском эксперименте, который привел к ужасным последствиям...</p>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#russianModal">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../static/img/slender/slenderman.jpg" class="card-img-top" alt="Slender Man">
+                    <div class="card-body">
+                        <h5 class="card-title">Slender Man</h5>
+                        <p class="card-text">Слендермен — это существо, скрывающееся в лесах, преследующее людей...</p>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#slenderModal">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../static/img/slender/slenderman.jpg" class="card-img-top" alt="Slender Man">
+                    <div class="card-body">
+                        <h5 class="card-title">Slender Man</h5>
+                        <p class="card-text">Слендермен — это существо, скрывающееся в лесах, преследующее людей...</p>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#slenderModal">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../static/img/slender/slenderman.jpg" class="card-img-top" alt="Slender Man">
+                    <div class="card-body">
+                        <h5 class="card-title">Slender Man</h5>
+                        <p class="card-text">Слендермен — это существо, скрывающееся в лесах, преследующее людей...</p>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#slenderModal">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../static/img/slender/slenderman.jpg" class="card-img-top" alt="Slender Man">
+                    <div class="card-body">
+                        <h5 class="card-title">Slender Man</h5>
+                        <p class="card-text">Слендермен — это существо, скрывающееся в лесах, преследующее людей...</p>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#slenderModal">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../static/img/slender/slenderman.jpg" class="card-img-top" alt="Slender Man">
+                    <div class="card-body">
+                        <h5 class="card-title">Slender Man</h5>
+                        <p class="card-text">Слендермен — это существо, скрывающееся в лесах, преследующее людей...</p>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#slenderModal">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../static/img/slender/slenderman.jpg" class="card-img-top" alt="Slender Man">
+                    <div class="card-body">
+                        <h5 class="card-title">Slender Man</h5>
+                        <p class="card-text">Слендермен — это существо, скрывающееся в лесах, преследующее людей...</p>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#slenderModal">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальные окна для подробностей -->
+    <!-- Slender Man -->
+    <div class="modal fade" id="slenderModal" tabindex="-1" role="dialog" aria-labelledby="slenderModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="slenderModalLabel">Slender Man</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-content">
+                        <img src="../static/img/slender/slenderman.jpg" class="card-img-top" alt="Slender Man">
+                        <p><span class="bolder-text">Слендермен</span> — это вымышленный персонаж, который стал одной из самых известных и пугающих крипипаст в интернете. Он был создан в 2009 году пользователем Eric Knudsen (также известным как "Victor Surge") на форуме Something Awful в рамках конкурса на создание оригинальных страшилок. Слендермен быстро стал интернет-феноменом, вдохновив на создание множества историй, видео, игр и других медиа.</p>
+                    </div>    
+                    <div class="modal-content">
+                        <h2 class="card-h2">Реальный инцидент</h2>
+                        <img src="../static/img/slender/slender-killer.jpg" class="card-img-top" alt="Slender Killer">
+                        <p>Один из самых известных инцидентов, связанных с Слендерменом, произошел в 2014 году, когда две 12-летние девочки из Висконсина (США) пытались убить свою подругу, чтобы «угодить» Слендермену. Этот случай получил международное освещение в СМИ, что еще больше повысило интерес к Слендермену, но также вызвало споры о влиянии интернет-культуры на психику подростков. Девочки утверждали, что действовали по приказу Слендермена, и это событие привлекло внимание к потенциальному вреду, который может быть нанесен интернет-феноменами.</p>
+                    </div>
+                    <div class="modal-content">
+                        <h2 class="card-h2">Влияние на культуру</h2>
+                        <img src="../static/img/slender/slender-culture.jpg" class="card-img-top" alt="Slender Killer">
+                        <p>Слендермен стал одним из самых популярных персонажей в мире крипипасты и интернет-ужасов, создавая целые подпольные сообщества, посвященные его культам и историям. Слендермен также вдохновил многие интернет-мемы, а также видеоигры, фильмы, аниме и другие формы искусства.</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <div class="footer" id="contacts">
+        <p>&copy; 2025 Крипипаста. Все права защищены.</p>
+    </div>
+    <script src="../static/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
